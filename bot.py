@@ -83,6 +83,4 @@ def bin(bi,cc,re):
 	tlg=requests.post(f"https://api.telegram.org/bot{tokentele}/sendMessage?chat_id={idtele}&text={m0}")
 
 print(cc+'|'+sendset['error']['message']+'\n')
-		except:
-			pass
 checker()
